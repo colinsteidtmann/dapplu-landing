@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.banner, .navbar {
+  background-color:#352280;
+}
+
+.theme-light {
+  background-color: #f7f9fb;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+.w-sm-40 {
+  width:40% !important;
+}
+
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-md-25 {
+  width:25% !important;
+}
+
+.w-lg-25 {
+  width:25% !important;
+}
+
