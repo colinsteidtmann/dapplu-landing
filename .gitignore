@@ -125,3 +125,10 @@ lint/tmp/
 
 node_modules
 
+#firebase
+.github
+.firebase
+.firebaserc
+firebase.json
+
+
