@@ -5,7 +5,7 @@ export const sendContactForm = async(props) => {
 	try {
 		const response = await axios({
 			method: "post",
-			url: process.env.REACT_APP_TEST_API_URL + "sendMail",
+			url: process.env.REACT_APP_API_URL + "sendMail",
 			data: {
 				name: name,
 				email: email,

@@ -22,9 +22,9 @@ export const Banner = (props) => {
 
   					<div className="row my-3 my-lg-0">
   						<div className="col-6 col-lg-4">
-  							<Link to="/contracts">
+  							<a href="https://app.dapplu.com/">
   							  <button className="btn btn-primary">Get Started</button>
-  							</Link>
+  							</a>
   						</div>
   						<div className="col-6 col-lg-4">
   							<a href="#learn">

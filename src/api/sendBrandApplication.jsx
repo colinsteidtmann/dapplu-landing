@@ -8,7 +8,7 @@ export const sendBrandApplication = async(props) => {
 	try {
 		const response = await axios({
 			method: "post",
-			url: process.env.REACT_APP_TEST_API_URL + "sendBrandApplication",
+			url: process.env.REACT_APP_API_URL + "sendBrandApplication",
 			data: {
 				profilePic: imgSrc,
 				name: name,

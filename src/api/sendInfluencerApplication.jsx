@@ -7,7 +7,7 @@ export const sendInfluencerApplication = async(props) => {
 	try {
 		const response = await axios({
 			method: "post",
-			url: process.env.REACT_APP_TEST_API_URL + "sendInfluencerApplication",
+			url: process.env.REACT_APP_API_URL + "sendInfluencerApplication",
 			data: {
 				profilePic: imgSrc,
 				name: name,
