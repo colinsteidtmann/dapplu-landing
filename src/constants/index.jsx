@@ -45,7 +45,7 @@ export const influencers = [
 		youtubeName: "EllasToyReviews",
 		youtubeLink: "https://www.youtube.com/channel/UC0iwHRFpv2_fpojZgQhElEQ",
 		email:"ellasreviews@gmail.com",
-		pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla arcu, volutpat quis leo at, dignissim dapibus elit. ",
+		pitch: "I film 2 hour story movies using toys (potentially from your company) as the main characters.",
 		lookingFor:"I want to partner with toy brands that have a diverse toy lineup and are environmentally friendly.",
 		about:"I'm Ella. I started filming toy reviews back in college. I've since been filming toy reviews full time and have partnered with brands such as LEGO and Mattel.",
 		contact:"Please go to my facebook — @ellastoyreviews — to contact me. ",	}
