@@ -1,4 +1,4 @@
-import profilePic from "#assets/images/profilePic.jpeg";
+import {FunToysLogo, ToyReviewer} from "#images";
 
 export const formStatuses = {
 	FORM:0,
@@ -17,22 +17,13 @@ export const brands = [
 		// brandContact:"",
 	// },
 	{
-		profilePic: profilePic,
-		name:"Apple",
-		email:"colinsteidtmann@gmail.com",
-		pitch:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla arcu, volutpat quis leo at, dignissim dapibus elit. ",
-		lookingFor:"Pellentesque non dui in mauris porttitor interdum. Duis eget magna rutrum, accumsan leo id, commodo justo.",
-		about:"Nulla eu odio efficitur, varius nunc eu, porttitor nisi. Cras convallis dictum sem, non malesuada enim pellentesque sit amet. Suspendisse suscipit lacus id orci hendrerit varius. Ut vel interdum urna. Integer sed metus at magna pellentesque pulvinar sit amet ut est. Vestibulum congue sodales mauris sit amet hendrerit. ",
-		contact:"You can contact us at our website: contact@brandx.com",
-	},
-	{
-		profilePic: profilePic,
-		name:"Apple",
-		email:"colinsteidtmann@gmail.com",
-		pitch:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla arcu, volutpat quis leo at, dignissim dapibus elit. ",
-		lookingFor:"Pellentesque non dui in mauris porttitor interdum. Duis eget magna rutrum, accumsan leo id, commodo justo.",
-		about:"Nulla eu odio efficitur, varius nunc eu, porttitor nisi. Cras convallis dictum sem, non malesuada enim pellentesque sit amet. Suspendisse suscipit lacus id orci hendrerit varius. Ut vel interdum urna. Integer sed metus at magna pellentesque pulvinar sit amet ut est. Vestibulum congue sodales mauris sit amet hendrerit. ",
-		contact:"You can contact us at our website: contact@brandx.com",
+		profilePic: FunToysLogo,
+		name:"Fun Toys",
+		email:"funtoys@gmail.com",
+		pitch:"We make adorable animal toys that kids love. ",
+		lookingFor:"We want YouTubers who make engaging content and can really get into character with our toys.",
+		about:"We've been making toys since 2010. We've had a number of big hits including Geoffrey the Giraffe and Leo the Lepord.",
+		contact:"Please go to our website to contact us — funtoys.com",
 	}
 ]
 
@@ -49,25 +40,13 @@ export const influencers = [
 		// influencerContact: "",
 	// },
 	{
-		profilePic: profilePic,
-		name: "Colin",
-		youtubeName: "Dapplu",
-		youtubeLink: "https://www.youtube.com/watch?v=6wgFliyJ4Bk",
-		email: "colinsteidtmann@gmail.com",
+		profilePic: ToyReviewer,
+		name:"Ella's Toy Reviews",
+		youtubeName: "EllasToyReviews",
+		youtubeLink: "https://www.youtube.com/channel/UC0iwHRFpv2_fpojZgQhElEQ",
+		email:"ellasreviews@gmail.com",
 		pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla arcu, volutpat quis leo at, dignissim dapibus elit. ",
-		lookingFor: "Vivamus eu tincidunt leo. Fusce erat odio, ullamcorper in aliquet in, molestie vel felis. Nam efficitur at turpis vitae ultricies.",
-		about: "Sed eget mi at ex molestie ultrices. Nunc lorem quam, volutpat sed finibus sed, lobortis sit amet risus. Etiam vel enim sit amet diam ultricies mollis id interdum lacus.",
-		contact: "Cras ultricies a felis sit amet tempor. Curabitur vehicula egestas maximus. Nullam tincidunt purus efficitur mollis imperdiet. Nam interdum dolor sit amet consequat vestibulum.",
-	},
-		{
-		profilePic: profilePic,
-		name: "Colin",
-		youtubeName: "Dapplu",
-		youtubeLink: "https://www.youtube.com/watch?v=6wgFliyJ4Bk",
-		email: "colinsteidtmann@gmail.com",
-		pitch: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla arcu, volutpat quis leo at, dignissim dapibus elit. ",
-		lookingFor: "Vivamus eu tincidunt leo. Fusce erat odio, ullamcorper in aliquet in, molestie vel felis. Nam efficitur at turpis vitae ultricies.",
-		about: "Sed eget mi at ex molestie ultrices. Nunc lorem quam, volutpat sed finibus sed, lobortis sit amet risus. Etiam vel enim sit amet diam ultricies mollis id interdum lacus.",
-		contact: "Cras ultricies a felis sit amet tempor. Curabitur vehicula egestas maximus. Nullam tincidunt purus efficitur mollis imperdiet. Nam interdum dolor sit amet consequat vestibulum.",
-	}
+		lookingFor:"I want to partner with toy brands that have a diverse toy lineup and are environmentally friendly.",
+		about:"I'm Ella. I started filming toy reviews back in college. I've since been filming toy reviews full time and have partnered with brands such as LEGO and Mattel.",
+		contact:"Please go to my facebook — @ellastoyreviews — to contact me. ",	}
 ]
